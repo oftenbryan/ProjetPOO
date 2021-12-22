@@ -1,4 +1,3 @@
-
 import sys
 from os import listdir
 from hachoir.parser import createParser
