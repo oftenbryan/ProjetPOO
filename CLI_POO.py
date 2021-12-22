@@ -123,7 +123,7 @@ def main():
     Si aucun argument est renseigné alors on incite l'utilisateur a utilser l'option d'aide -h
     """
     if len(sys.argv) < 2:
-        print("Tapez : python POO.py -h ,pour avoir de l'aide") #On affiche comment obtenir de l'aide
+        print("Tapez : python CLI_POO.py -h ,pour avoir de l'aide") #On affiche comment obtenir de l'aide
         exit() #On stop le programme
 
     else :
