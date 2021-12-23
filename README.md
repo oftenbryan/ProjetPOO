@@ -7,14 +7,14 @@ BEKONO ESSOMBA Bryan
 
 ALLEON Gaelle
 
-Groupe TD : E
+Groupe TDE
 
 N°10
 
 
   ## Contenu:
   
-  Ce github contient :
+  Ce github contient 
   * 2 script python permettant de faire de la stéganographie et d'extraire les métadonnées d'une image.
   * Les doxyfiles de chaque scipts, pour la comprehension des fonctions.
   * Des images test pour faire de la steganographie et afficher les métadonnées.
@@ -38,7 +38,7 @@ N°10
     ![](Images/decoder.gif)
   
 
-  ## Modules:
+  ## Modules
   * sys
   * os
   * hachoir
@@ -54,7 +54,7 @@ N°10
   ```
   
   
-  ## Important:
+  ## Important
   Pour que le GUI fonctionne il est important que ses images(boutons, fond d'écran etc) soit dans le même dossier que les scripts   GUI.
 
 
