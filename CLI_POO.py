@@ -1,11 +1,12 @@
 
 import sys
+import os,fnmatch
 from os import listdir
 from hachoir.parser import createParser
 from hachoir.metadata import extractMetadata
 import numpy as np
 from PIL import Image
-np.set_printoptions(threshold=sys.maxsize)
+
 
 def aide() -> None:
     """Cette fonction ne prend pas d'argument
@@ -134,7 +135,10 @@ def main():
 
         elif type_fichier == '-d':
             nom_doc = sys.argv[2]
-            print(listdir(nom_doc))
+            jpg = fnmatch.filter(os.listdir(nom_doc), "*.jpg")
+            png = fnmatch.filter(os.listdir(nom_doc), "*.png")
+            print(jpg)
+            print(png)
 
         elif type_fichier == '-f':
             nom_file = sys.argv[2]
