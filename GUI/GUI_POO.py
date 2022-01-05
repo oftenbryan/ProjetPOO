@@ -110,7 +110,7 @@ label1.place(x=0,y=0, relwidth=1, relheight=1)
 quit_btn = PhotoImage(file=r'Quitter.png')
 img_label1 = Label(image=quit_btn)
 my_button = Button(fenetre, image=quit_btn, command=fenetre.destroy, bd=0, bg="#1c1c1c", borderwidth=0)
-my_button.place(x=246, y=4)
+my_button.place(x=246, y=478)
 """! @brief Création du bouton quitter"""
 
 # Création du bouton Métadonnées
@@ -123,7 +123,7 @@ my_button.place(x=40, y=10)
 diss_btn = PhotoImage(file=r'Stg.png')
 img_labe3 = Label(image=diss_btn)
 my_button = Button(fenetre, image=diss_btn, command=Stegano, bd=0, bg="#1c1c1c", borderwidth=0)
-my_button.place(x=425, y=10)
+my_button.place(x=350, y=10)
 
 
 cadre = Frame(fenetre, width =210, height= 390, bg ="#373737" )
